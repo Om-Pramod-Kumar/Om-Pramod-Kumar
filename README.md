@@ -37,7 +37,8 @@
 
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Om-Pramod-Kumar&theme=tokyonight)
-![snake gif](https://raw.githubusercontent.com/Om-Pramod-Kumar/Om-Pramod-Kumar/main/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/Om-Pramod-Kumar/Om-Pramod-Kumar/output/snake.svg)
+
 
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=Om-Pramod-Kumar&theme=tokyonight)](https://github.com/ryo-ma/github-profile-trophy)
