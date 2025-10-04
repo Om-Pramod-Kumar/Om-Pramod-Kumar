@@ -37,8 +37,10 @@
 
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Om-Pramod-Kumar&theme=tokyonight)
+
 ### 🐍 GitHub Contribution Snake
 ![Snake animation](https://raw.githubusercontent.com/abcdef/abcdef/output/snake.svg)
+
 
 
 
