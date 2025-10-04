@@ -2,7 +2,7 @@ name: Generate Dark Neon Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # runs daily at midnight UTC
+    - cron: "0 0 * * *" # daily at midnight UTC
   workflow_dispatch:
 
 jobs:
@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Generate Dark Neon Snake SVG (Thick & Bright)
+      - name: Generate Dark Neon Snake SVG (All black grid)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Om-Pramod-Kumar
@@ -23,10 +23,10 @@ jobs:
             dist/snake.svg
           color_snake: "00ff00"       # neon green snake
           color_dots: "00ff00"        # all trail dots neon green
-          background: "000000"        # black background
-          hide_border: false
-          thickness: 4                # make snake thicker
-          radius: 3                   # make the dots rounder for glowing effect
+          background: "000000"        # black background for all boxes
+          hide_border: true            # remove outer border
+          thickness: 4                # thicker snake
+          radius: 3                   # round dots for glow
 
       - name: Upload artifact for verification
         uses: actions/upload-artifact@v4
