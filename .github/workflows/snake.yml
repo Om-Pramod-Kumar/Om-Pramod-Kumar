@@ -2,26 +2,26 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # Runs every day at midnight UTC
+    - cron: "0 0 * * *" # runs daily at midnight UTC
   workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout main branch
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Generate the Snake SVG
-        uses: Platane/snk@v3
+      - name: Generate Snake Animation SVG
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Om-Pramod-Kumar
-          outputs: dist/snake.svg
+          outputs: |
+            dist/snake.svg
 
-      - name: Upload artifact (debugging)
+      - name: Upload artifact for verification
         uses: actions/upload-artifact@v4
         with:
           name: snake-preview
@@ -32,5 +32,4 @@ jobs:
         with:
           branch: output
           folder: dist
-          clean: true
           token: ${{ secrets.GITHUB_TOKEN }}
