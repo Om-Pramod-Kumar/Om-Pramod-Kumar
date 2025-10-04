@@ -22,9 +22,13 @@
 
 
 ## 📊 GitHub Stats
-![IronMan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Om-Pramod-Kumar&show_icons=true&theme=tokyonight)
+![Om Kumar's GitHub stats](https://github-readme-stats.vercel.app/api?username=Om-Pramod-Kumar&show_icons=true&theme=tokyonight)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Om-Pramod-Kumar&layout=compact&theme=tokyonight)
+
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=Om-Pramod-Kumar&repo=College-Website&theme=tokyonight)](https://github.com/Om-Pramod-Kumar/College-Website)
+
 ![Profile Views](https://komarev.com/ghpvc/?username=Om-Pramod-Kumar&color=blueviolet&style=for-the-badge)
+
 
 
 ## 🌐 Connect With Me
