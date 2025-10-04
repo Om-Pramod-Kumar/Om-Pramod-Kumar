@@ -45,9 +45,10 @@
 
 
 
-
-
+### 🏆 GitHub Trophy Cabinet
 [![trophy](https://github-profile-trophy.vercel.app/?username=Om-Pramod-Kumar&theme=tokyonight)](https://github.com/ryo-ma/github-profile-trophy)
 
+### 💡 Quote
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+### 💡Joke
 ![Jokes Card](https://readme-jokes.vercel.app/api?hideBorder&theme=tokyonight)
