@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=1000&color=00C2FF&width=435&lines=Hi+There!+👋;I'm+Om+Kumar;🤖+AI+&+ML+Enthusiast;Always+learning+new+things!;💡+Innovator)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=1000&color=00C2FF&width=435&lines=Hi+There!+👋;I'm+Om+Kumar;🤖+AI+and+ML+Enthusiast;Always+learning+new+things!;💡+Innovator)](https://git.io/typing-svg)
 
 ## 💼 About Me
 - 🎓 I'm currently learning **Machine Learning** and **React Native App Development**  
