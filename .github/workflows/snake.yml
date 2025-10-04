@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Dark Neon Snake
 
 on:
   schedule:
@@ -8,18 +8,23 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout main branch
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Generate Snake Animation SVG
+      - name: Generate Dark Neon Snake SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Om-Pramod-Kumar
           outputs: |
             dist/snake.svg
+          color_snake: "00ff00"       # neon green snake
+          color_dots: "555555,00ff00,ffffff,ff0000,ffff00" # colorful trail dots
+          background: "000000"        # pure black background
+          hide_border: false
 
       - name: Upload artifact for verification
         uses: actions/upload-artifact@v4
