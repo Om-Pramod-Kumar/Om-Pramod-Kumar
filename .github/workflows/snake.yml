@@ -21,10 +21,10 @@ jobs:
           github_user_name: Om-Pramod-Kumar
           outputs: |
             dist/snake.svg
-          color_snake: "00ff00"       # neon green snake
+          color_snake: "#39ff14"       # neon green snake
           color_dots: "555555,00ff00,ffffff,ff0000,ffff00" # colorful trail dots
-          background: "000000"        # pure black background
-          hide_border: false
+          background: "121212"        # pure black background
+          hide_border: true
 
       - name: Upload artifact for verification
         uses: actions/upload-artifact@v4
