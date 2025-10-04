@@ -24,3 +24,4 @@
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Om-Pramod-Kumar&theme=tokyonight)
 ![snake gif](https://github.com/Om-Pramod-Kumar/Om-Pramod-Kumar/blob/output/github-contribution-grid-snake.svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=1000&color=00C2FF&width=435&lines=Hi+There!+👋;I'm+IronMan;AI+and+App+Developer;Always+learning+new+things!)](https://git.io/typing-svg)
