@@ -15,16 +15,18 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Generate Dark Neon Snake SVG
+      - name: Generate Dark Neon Snake SVG (Thick & Bright)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Om-Pramod-Kumar
           outputs: |
             dist/snake.svg
-          color_snake: "#39ff14"       # neon green snake
-          color_dots: "555555,00ff00,ffffff,ff0000,ffff00" # colorful trail dots
-          background: "121212"        # pure black background
-          hide_border: true
+          color_snake: "00ff00"       # neon green snake
+          color_dots: "00ff00"        # all trail dots neon green
+          background: "000000"        # black background
+          hide_border: false
+          thickness: 4                # make snake thicker
+          radius: 3                   # make the dots rounder for glowing effect
 
       - name: Upload artifact for verification
         uses: actions/upload-artifact@v4
