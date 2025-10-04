@@ -1,0 +1,35 @@
+name: GitHub Contribution Snake
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 6 * * *'    # runs daily at 06:00 UTC (optional)
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Generate contribution-snake SVG
+        # uses Platane's snk action (widely used)
+        uses: platane/snk@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # Common options (you can change these values)
+          color: '39ff14'          # snake color (hex or name)
+          background: '00000000'   # background color; '00000000' makes it transparent
+          hide_border: false       # whether to hide the border around the grid
+
+      - name: Commit generated output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: update contribution snake" || echo "No changes to commit"
+          git push
