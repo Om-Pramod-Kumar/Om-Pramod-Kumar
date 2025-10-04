@@ -1,16 +1,26 @@
-## Hi there 👋
+# 👋 Hi, I'm Om Kumar
+🤖 AI & ML Enthusiast | 🚀 Passionate developer | 💡 Innovator 
 
-<!--
-**Om-Pramod-Kumar/Om-Pramod-Kumar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 💼 About Me
+- 🎓 I'm currently learning **Machine Learning** and **React Native App Development**  
+- 🔭 Building something interesting
+- 🌱 Exploring **AI integration** in real-world projects  
+- 💬 Ask me about **Python**, **Machine Learning**, **Deep Learning** and **AI models**  
 
-Here are some ideas to get you started:
+## 🛠️ Tech Stack
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?logo=react&logoColor=61DAFB)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
+![GitHub](https://img.shields.io/badge/GitHub-100000?logo=github&logoColor=white)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📊 GitHub Stats
+![IronMan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Om-Pramod-Kumar&show_icons=true&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Om-Pramod-Kumar&layout=compact&theme=tokyonight)
+
+## 🌐 Connect With Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000?logo=firefox&logoColor=white)](https://YOUR_PORTFOLIO_LINK)
+
+
+![GitHub Streak](https://streak-stats.demolab.com?user=Om-Pramod-Kumar&theme=tokyonight)
+![snake gif](https://github.com/Om-Pramod-Kumar/Om-Pramod-Kumar/blob/output/github-contribution-grid-snake.svg)
