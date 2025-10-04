@@ -37,7 +37,9 @@
 
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Om-Pramod-Kumar&theme=tokyonight)
-![Snake animation](https://raw.githubusercontent.com/Om-Pramod-Kumar/Om-Pramod-Kumar/output/snake.svg)
+![GitHub Snake Light](https://raw.githubusercontent.com/Om-Pramod-Kumar/Om-Pramod-Kumar/output/snake.svg#gh-light-mode-only)
+![GitHub Snake Dark](https://raw.githubusercontent.com/Om-Pramod-Kumar/Om-Pramod-Kumar/output/snake.svg#gh-dark-mode-only)
+
 
 
 
