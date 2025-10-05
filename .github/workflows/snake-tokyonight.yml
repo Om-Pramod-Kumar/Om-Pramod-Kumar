@@ -1,36 +1,35 @@
-name: Generate Neon Blue Snake with Tokyonight Border
+name: Neon Blue Snake - Tokyonight Style
 
 on:
   schedule:
-    - cron: "0 0 * * *" # daily at midnight UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Generate Neon Blue Snake SVG
+      - name: Generate Neon Blue Snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Om-Pramod-Kumar
           outputs: |
             dist/snake-tokyonight.svg
-          color_snake: "00BFFF"        # Neon blue snake
-          color_dots: "00BFFF"         # Matching trail dots
-          background: "000000"         # Black background for non-contribution boxes
-          hide_border: false            # Show borders
-          border_color: "1f2335"       # Tokyonight theme border color
-          thickness: 4                  # Thicker snake for visibility
-          radius: 3                     # Round dots
-          glow: true                    # Optional: glow effect for neon snake
+          color_snake: "00BFFF"        # neon blue
+          color_dots: "00BFFF"         # blue trail
+          background: "1a1b26"         # Tokyonight dark background
+          hide_border: false           # keep subtle grid borders
+          color_border: "1f2335"       # Tokyonight box border (supported in latest v3)
+          thickness: 4
+          radius: 3
+          glow: true
 
-      - name: Upload artifact for verification
+      - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: snake-preview
