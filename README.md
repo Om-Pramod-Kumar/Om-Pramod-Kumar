@@ -38,9 +38,12 @@
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Om-Pramod-Kumar&theme=tokyonight)
 
-### 🐍 Neon Blue GitHub Snake (Tokyonight)
-![Snake animation](https://raw.githubusercontent.com/Om-Pramod-Kumar/Om-Pramod-Kumar/output/snake-tokyonight.svg)
+<div align="center" style="background-color:#1a1b26;padding:16px;border-radius:10px;">
+  
+  ### 🐍 Neon Blue Snake (Tokyonight Theme)
+  ![Snake animation](https://raw.githubusercontent.com/Om-Pramod-Kumar/Om-Pramod-Kumar/output/snake-transparent.svg)
 
+</div>
 
 
 
