@@ -31,30 +31,20 @@
 
 
 
-## 🌐 Connect With Me
+## 🔥 Github Streak
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000?logo=firefox&logoColor=white)](https://YOUR_PORTFOLIO_LINK)
 
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Om-Pramod-Kumar&theme=tokyonight)
-
-<div align="center" style="background-color:#1a1b26;padding:16px;border-radius:10px;">
   
-  ### 🐍 Neon Blue Snake (Tokyonight Theme)
+  ## 🐍 Github Contibution Snake
   ![Snake animation](https://raw.githubusercontent.com/Om-Pramod-Kumar/Om-Pramod-Kumar/output/snake-transparent.svg)
 
-</div>
-
-
-
-
-
-
-
-### 🏆 GitHub Trophy Cabinet
+## 🏆 GitHub Trophy Cabinet
 [![trophy](https://github-profile-trophy.vercel.app/?username=Om-Pramod-Kumar&theme=tokyonight)](https://github.com/ryo-ma/github-profile-trophy)
 
-### 💡 Quote
+## 💡 Quote
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-### 💡Joke
+## 💡Joke
 ![Jokes Card](https://readme-jokes.vercel.app/api?hideBorder&theme=tokyonight)
